@@ -1,0 +1,6 @@
+fake2db==0.5.4
+Faker==0.7.11
+pkg_resources==0.0.0
+psycopg2==2.9.1
+python-dateutil==2.8.2
+six==1.16.0

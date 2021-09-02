@@ -1,0 +1,21 @@
+{
+    "table": "public.users",
+    "indexes": [ 
+        {
+            "index": "name_idx",
+            "column": "name"
+        },
+        {
+            "index": "email_idx",
+            "column": "email"
+        },
+        {
+            "index": "country_idx",
+            "column": "country"
+        }
+    ],
+    "fts_index": {
+        "index": "document_for_idx",
+        "column": "document_idx"
+    }
+}
