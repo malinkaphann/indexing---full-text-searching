@@ -73,7 +73,7 @@ def createIndexes(cursor, conn):
         fts_index = config['fts_index']
     except:
         print('key fts_index is not found in config')
-        sys.exit
+        sys.exit()
 
     print('1- working with normal column indexes')
 
